@@ -1,0 +1,79 @@
+.op-product-grid{
+    width: 100%;
+
+}
+
+.pos_page_op-setting  #wpbody-content .metabox-holder {
+    padding-top: 5px;
+    background: #fff;
+    padding-left: 10px;
+    border-bottom: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+}
+
+.toplevel_page_openpos-dasboard .op-dashboard-content{
+    margin-top: 5px;
+    padding: 5px 10px;
+    padding-left: 0;
+}
+.toplevel_page_openpos-dasboard .op-dashboard-content .real-content-container{
+    float:left;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.toplevel_page_openpos-dasboard .op-dashboard-content .real-content-container .title{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.toplevel_page_openpos-dasboard .op-dashboard-content .real-content-container .last-orders,
+.toplevel_page_openpos-dasboard .op-dashboard-content .real-content-container .total{
+    width: calc(50% - 15px);
+
+    padding: 5px;
+    display: inline-block;
+    background: #fff;
+
+
+}
+.toplevel_page_openpos-dasboard .op-dashboard-content .real-content-container .last-orders{
+    float: left;
+    margin-right:5px;
+}
+.toplevel_page_openpos-dasboard .op-dashboard-content .real-content-container .total{
+    float: right;
+}
+.real-content-container #total-details{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px;
+}
+.real-content-container #total-details li{
+    display: block;
+    float:left;
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.real-content-container #total-details .field-title{
+    width: 100px;
+    float:left;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00d2a8;
+}
+.real-content-container #total-details .field-title #pos{
+    color: #2ab6d6;
+}
+.real-content-container #total-details .field-value{
+    width: calc(100% - 105px);
+    float:right;
+    font-size: 20px;
+    font-weight: bold;
+}
